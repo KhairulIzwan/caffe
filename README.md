@@ -117,7 +117,7 @@ unknown:
                        Apple Built-in IR Receiver
 ```
 
-## Changes
+## Changes has been made
 1. Uncomment CPU_ONLY := 1 in Makefile.config
 ```
 # CPU-only switch (uncomment to build without GPU support).
@@ -143,9 +143,12 @@ ifeq ($(USE_OPENCV), 1)
 endif
 ```
 
-## Run the installation
+### Installation
+**Tested on Ubuntu 16.04**
+
 ```
 $ git clone https://github.com/KhairulIzwan/caffe.git
 $ cd caffe
 $ ./installCaffe.sh
+
 ```
